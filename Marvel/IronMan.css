@@ -1,0 +1,39 @@
+a:link{
+            background-color: red;
+            color: white;
+            padding: 15px 20px;
+            text-align:center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right:16px
+               }
+body{
+    background-image: url("ironmanbgr.webp");
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p1div{
+    border: 5px outset yellow;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.p2div{
+  border: 5px outset yellow;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;  
+}
+.p3div{
+    border: 5px outset yellow;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.p4div{
+    border: 5px outset yellow;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
