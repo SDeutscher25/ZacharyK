@@ -1,0 +1,25 @@
+body{
+    background-color: #0abef5
+}
+table{
+    font-family: cursive;
+    border: medium;
+    width: 100%;
+padding-bottom: 25px;
+}
+td, th{
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 10px
+}
+tr:nth-child(even){
+    background-color: aliceblue
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+    height: 150px;
+    padding-bottom: 10px;
+}
