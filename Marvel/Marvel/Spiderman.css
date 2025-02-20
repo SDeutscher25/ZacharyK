@@ -1,0 +1,111 @@
+body{
+    background-image: url("Spidermanbgr.png");
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-img {
+  background-image: url("spidermanbgr2.jpeg");
+  min-height: 445px;
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #0013ff;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.p1div{
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px
+}
+.p2div{
+    background-color: #0013ff;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    opacity: 75%
+}
+.p3div{
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    opacity: 75%
+}
+.p4div{
+    background-color: #0013ff;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    opacity: 75%
+}
+.p5div{
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    opacity: 75%
+}
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center
+}
+a:link{
+            background-color: red;
+            color: white;
+            padding: 15px 20px;
+            text-align:center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right:16px
+  }
+th{
+    font-size: 50px;
+    color: red;
+    text-align: left;
+}
+td{
+    font-size: 30px;
+    color: blue;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+.p7div{
+    text-align: center;
+    color: gold;
+    font-size: 35px;
+}
+h2{
+    text-align: left;
+    color: red;
+    font-size: 40px;
+}
+li{
+    font-size: 30px;
+    color: blue;
+}

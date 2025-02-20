@@ -1,0 +1,93 @@
+a:link{
+            background-color: red;
+            color: white;
+            padding: 15px 20px;
+            text-align:center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right:16px
+               }
+body{
+    background-image: url("ironmanbgr.webp");
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p1div{
+    border: 5px outset #0044ff;
+    text-align: center;
+    font-size: 30px;
+    color: #0044ff;
+    background-color: yellow;
+    opacity: 60%;
+}
+.p2div{
+  border: 5px outset #0044ff;
+    text-align: center;
+    font-size: 30px;
+    color: #0044ff; 
+    background-color: yellow;
+    opacity: 60%;
+}
+.p3div{
+    border: 5px outset #0044ff;
+    text-align: center;
+    font-size: 30px;
+    color: #0044ff;
+    background-color: yellow;
+    opacity: 60%;
+}
+.p4div{
+    border: 5px outset #0044ff;
+    color: #0044ff;
+    font-size: 35px;
+    text-align: center;
+    background-color: yellow;
+    opacity: 60%;
+}
+td{
+    font-size: 30px;
+    color: #006bc9;
+}
+th{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: left
+}
+h2{
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+li{
+    font-size: 30px;
+    color: yellow;
+    text-align: left;
+}
+h3{
+    text-align: center;
+    color: yellow;
+    font-size: 50px;
+}
+.p6div{
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    border: outset yellow;
+    background-color: #0044ff
+}
+iframe{
+    align-content: center
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: blue
+}
+.center{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+    border: 5px outset blue
+}
