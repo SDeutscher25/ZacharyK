@@ -1,0 +1,44 @@
+body{
+    background-image: url(ValentineBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #4b4be5;
+    font-size: 75px;
+    text-align: center
+}
+h2{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center
+}
+h3{
+    color: #ff0000;
+    text-align: left;
+    font-size: 35px;
+}
+p{
+    color: #000000;
+    font-size: 30px;
+    text-align: match-parent;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+a {
+    background-color: #f689ff;
+    border: solid;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

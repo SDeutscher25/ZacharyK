@@ -1,0 +1,64 @@
+a {
+    background-color: #f689ff;
+    border: solid;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body{
+    background-image: url(Halloween%20Backdrop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #000000;
+    text-align: center;
+    font-size: 70px
+}
+h2{
+    color: #ffd991;
+    text-align: center;
+    font-size: 50px
+}
+p{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+td{
+    color: white;
+    font-size: 25px;
+    padding: 10px
+}
+th{
+    color: #000000;
+    text-align: center;
+    font-size: 30px
+}
+img{
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3{
+    text-align: center;
+    color: black;
+    font-size: 50px
+}
+h4{
+    text-align: left;
+    color: blanchedalmond;
+    font-size: 35px;
+}
+li{
+    color: #cdff00;
+    font-size: 25px
+}
