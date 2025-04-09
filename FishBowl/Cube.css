@@ -1,0 +1,121 @@
+a:link {
+          background-color: #f689ff;
+    border: solid;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+          
+}
+body {
+          height: 100vh;
+          background-color: #76ff91;
+          margin: 0;
+          overflow: hidden;
+}
+.scene {
+          perspective: 800px;
+}
+.cube {
+          position: relative;
+          width: 100px;
+          transform-style: preserve-3d;
+          animation: rotate 5s infinite linear;
+          justify-content: center;
+          margin-left: 300px;
+          margin-top: 450px;
+}
+.cube div {
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          background: rgba(255, 0, 0, 0.5);
+          border: 2px solid #ffffff;
+          border-radius: 100%;
+          box-shadow: 0 0 21px #000000;
+          transition: 0.3s;
+}
+.cube:hover div {
+          box-shadow: 0 0 40px #003aff;
+}
+.front {
+          transform: translateZ(50px);
+}
+.back {
+          transform: rotateY(180deg) translateZ(50px);
+}
+.left {
+          transform: rotateY(90deg) translateZ(-50px);
+}
+.right {
+          transform: rotateY(90deg) translateZ(50px);
+}
+.top {
+          transform: rotateX(90deg) translateZ(50px);
+}
+.bottom {
+          transform: rotateX(-90deg) translateZ(50px);
+}
+.container
+    {
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50px , -35px);
+    }
+
+  .pyramid
+    {
+        width: 100px;
+        height: 200px;
+        position: relative;
+        margin: 182px;
+           transform-style: preserve-3d;
+          animation: rotate 5s infinite linear;
+    }
+
+  .pyramid::before, .pyramid::after
+    {
+        content: '';
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border: 50px solid;
+        position: absolute;
+    }
+
+  .pyramid::before
+    {
+        border-color: transparent transparent #7700ff transparent;
+        transform: scaleY(2) skewY(-40deg) rotate(45deg);
+    }
+
+  .pyramid::after
+    {
+        border-color: transparent transparent #5500b6 transparent;
+        transform: scaleY(2) skewY(40deg) rotate(-45deg);
+    }
+
+.sphere {
+  width: 250px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: 
+    radial-gradient(circle at 40% 30%,#0000 4%,57%,#000 90%) 
+    #FE4365;
+          transform-style: preserve-3d;
+          animation: rotate 5s infinite linear;
+          
+}
+@keyframes rotate {
+          0% {
+                    transform: rotateX(0) rotateY(0);
+          }
+          100% {
+                    transform: rotateX(360deg) rotateY(360deg);
+          }
+}

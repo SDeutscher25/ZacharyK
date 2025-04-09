@@ -1,0 +1,341 @@
+
+a:link{
+            background-color: #2389da;
+            color: #000000;
+            padding: 15px 20px;
+            text-align:center;
+            text-decoration: none;
+            display: inline-block;
+  }
+body {
+background-image: url(spacebgr.jpeg);
+background-size: 20rem 20rem;
+background-position: center 0;
+animation: bg 2s linear infinite;
+overflow: hidden;
+}
+.ship {
+position: absolute;
+top: 0;
+bottom: 0;
+left: -34em;
+right: 0;
+width: 3rem;
+height: 5rem;
+margin: auto;
+animation: move 2s linear infinite alternate;
+}
+.body {
+position: relative;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: #57ff00;
+box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+z-index: 1000;
+}
+.eyes {
+width: 1rem;
+position: relative;
+top: 1.5rem;
+left: 1rem;
+animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye_1, .eye_2 {
+position: absolute;
+display: block;
+width: 1.3rem;
+height: 0.5rem;
+border-radius: 34%;
+background-color: #ffffff;
+animation: eye 2s ease-in-out infinite alternate;
+}
+.eye_2 {
+right: 0;
+}
+.foot_1, .foot_2, .foot_3 {
+position: absolute;
+top: 1.5rem;
+width: 4.5rem;
+height: 7rem;
+border-radius: 50%;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+opacity: 0.5;
+}
+.foot_1 {
+transform: rotate(25deg);
+}
+.foot_2 {
+top: 2rem;
+width: 0.37rem;
+left: 1.315rem;
+background: linear-gradient(rgba(227, 227, 227, 0.7) 75%, rgba(227, 227, 227, 0.3));
+opacity: 0.8;
+}
+.foot_3 {
+transform: rotate(-25deg);
+right: 0;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+}
+.vawes {
+position: relative;
+top: -2rem;
+left: -2rem;
+width: 7rem;
+height: 7rem;
+fill: none;
+}
+.wave_1, .wave_2 {
+stroke: rgba(227, 227, 227, 0.7);
+stroke-width: 1;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 2;
+animation: wave 2s infinite linear;
+opacity: 0;
+transform-origin: center;
+animation-delay: 0.1s;
+}
+.wave_2 {
+animation-delay: 1s;
+}
+@keyframes wave {
+from { transform: scale(0.45) rotate(0); opacity: 1; }
+to { transform: scale(1) rotate(20deg); opacity: 0;}
+}
+@keyframes move {
+from { transform: rotate(-10deg);}
+to { transform: rotate(10deg);}
+}
+@keyframes bg {
+to { background-position: center 20rem;}
+}
+@keyframes eyes {
+from { transform: translateX(-0.4rem)}
+to { transform: translateX(0.4rem)}
+}
+@keyframes eye {
+40% { transform: scaleY(1)}
+50% { transform: scaleY(0)}
+60% { transform: scaleY(1)}
+}
+
+.ship2 {
+position: absolute;
+top: 36rem;
+bottom: 0;
+left: 0;
+right: 0;
+width: 3rem;
+height: 3rem;
+margin: auto;
+animation: move 2s linear infinite alternate;
+}
+.body2 {
+position: relative;
+width: 100%;
+height: 100%;
+border-radius: 22%;
+background-color: #00cdff;
+box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+z-index: 1000;
+}
+.eyes2 {
+width: 1rem;
+position: relative;
+top: 0.9rem;
+left: 1rem;
+animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye2_1, .eye2_2 {
+position: absolute;
+display: block;
+width: 0.2rem;
+height: 0.9rem;
+border-radius: 34%;
+background-color: #ff0000;
+animation: eye 2s ease-in-out infinite alternate;
+}
+.eye2_2 {
+right: 0;
+}
+.foot2_1, .foot2_2, .foot2_3 {
+position: absolute;
+top: 2rem;
+width: 0.4rem;
+height: 7rem;
+border-radius: 50%;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+opacity: 0.5;
+}
+.foot2_1 {
+transform: rotate(25deg);
+}
+.foot2_2 {
+top: -7rem;
+width: 1.27rem;
+left: 1rem;
+background: linear-gradient(rgba(227, 227, 227, 0.7) 75%, rgba(227, 227, 227, 0.3));
+opacity: 0.8;
+}
+.foot2_3 {
+transform: rotate(-25deg);
+right: 0;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+}
+
+.wave_1, .wave_2 {
+stroke: rgba(227, 227, 227, 0.7);
+stroke-width: 1;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 2;
+animation: wave 2s infinite linear;
+opacity: 0;
+transform-origin: center;
+animation-delay: 0.1s;
+}
+.wave_2 {
+animation-delay: 1s;
+}
+.ship3 {
+position: absolute;
+top: 0;
+bottom: 46rem;
+left: 0;
+right: 0;
+width: 5rem;
+height: 2rem;
+margin: auto;
+animation: move 2s linear infinite alternate;
+}
+.body3 {
+position: relative;
+width: 100%;
+height: 100%;
+border-radius: 22%;
+background-color: #ff0000;
+box-shadow: inset 0 -5px 5px rgba(137, 210, 255, 0.5);
+z-index: 1000;
+}
+.eyes3 {
+width: 1rem;
+position: relative;
+top: 0.9rem;
+left: 2rem;
+animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye3_1, .eye3_2 {
+position: absolute;
+display: block;
+width: 0.7rem;
+height: 0.8rem;
+border-radius: 21%;
+background-color: #000000;
+animation: eye 2s ease-in-out infinite alternate;
+}
+.eye3_2 {
+right: 0;
+}
+.foot3_1, .foot3_2, .foot3_3 {
+position: absolute;
+top: 2rem;
+width: 19.4rem;
+height: 6rem;
+border-radius: 50%;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+opacity: 0.5;
+}
+.foot3_1 {
+transform: rotate(25deg);
+background: yellow;
+}
+.foot3_2 {
+top: 2rem;
+width: 2.00rem;
+left: 1.5rem;
+background: yellow;
+opacity: 0.7;
+}
+.foot3_3 {
+transform: rotate(-25deg);
+right: 0;
+background: yellow;
+}
+
+.wave3_1, .wave3_2 {
+stroke: rgba(227, 227, 227, 0.7);
+stroke-width: 1;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 2;
+animation: wave 2s infinite linear;
+opacity: 0;
+transform-origin: center;
+animation-delay: 0.1s;
+}
+.wave_3 {
+animation-delay: 1s;
+}
+.ship4 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 5rem;
+height: 9rem;
+margin: auto;
+animation: move 2s linear infinite alternate;
+}
+.body4 {
+position: relative;
+width: 100%;
+height: 100%;
+border-radius: 165%;
+background-color: #fbffd1;
+box-shadow: inset 0 -5px 5px red;
+z-index: 1000;
+}
+.eyes4 {
+width: 1rem;
+position: relative;
+top: 1.6rem;
+left: 1rem;
+animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye4_1, .eye4_2 {
+position: absolute;
+display: block;
+width: 3rem;
+height: 2.1rem;
+border-radius: 34%;
+background-color: #000000;
+}
+.eye_2 {
+right: 0;
+}
+.foot4_1, .foot4_2, .foot4_3 {
+position: absolute;
+top: 4rem;
+width: 1.4rem;
+height: 5rem;
+border-radius: 50%;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+opacity: 0.5;
+}
+.foot4_1 {
+transform: rotate(25deg);
+}
+.foot4_2 {
+top: 7rem;
+width: 1.5rem;
+left: 1.8rem;
+background: orange;
+opacity: 1;
+}
+.foot4_3 {
+transform: rotate(-25deg);
+right: 0;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+}
