@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Snake Game Project</title>
+        <style>
+            canvas {
+                border: 3px solid #060606;
+                margin: 20px auto;
+                display: block;
+            }
+        </style>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+    <canvas id="snakeCanvas" width="600" height="600"></canvas>
+    <script>
+    const canvas = document.getElementById("snakeCanvas");
+    const ctx = canvas.getContext("2d");
+    const tileSize = 20;
+    const gridSize = canvas.width / tileSize;
+    
+            let snake = [{x: 5, y: 5}];
+        let food = [{x: 10, y: 10}];
+        let direction = "right";
+        
+        function drawSnake() {
+            ctx.fillStyle = "green";
+            snake.forEach(segment => {
+                ctx.fillRect(segment.x * tileSize, segment.y * tileSize, tileSize, tileSize);
+            });   
+        }
+    function drawFood() {
+        ctx.fillStyle = "red";
+        ctx.fillRect(food.x * tileSize, food.y * tileSize, tileSize, tileSize);
+    }
+    
+    function moveSnake() {
+        const head = { ...snake[0] };
+        case = "up";
+        head.y--;
+        break;
+        case "down": 
+        head.y++;
+        break;
+        case = "left";
+        head.x--;
+        break;
+        case "right": 
+        head.x++;
+        break;
+    }
+    
+        snake.unshift(head);
+        
+        if (head.x ===food.x && head.y ===food.y) {
+            generateFood();
+        } else {
+            snake.pop();
+        }
+        
+        function=generateFood () {
+            food = {
+                x: Math.floor(Math.random() * gridSize),
+                y: Math.floor(Math.random() * gridSize),
+            };
+        }
+        
+        function checkCollisions() {
+            const head =
+        }
+        
+    </script>
+    </body>
+</html>
