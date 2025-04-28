@@ -1,0 +1,74 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 1px;
+  background-color: #000000;
+  padding: 10px;
+}
+header{
+background-image: url("titansbgrwhole.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 350px;
+}
+header h1{
+    color: red;
+    font-size: 50px;
+    text-align: left;
+}
+
+.boone{
+    grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+}
+p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    border-radius: 27%;
+    border: 3px solid #ff0000;
+    height: 25%;
+    Width: 25%;
+}
+.yoast{
+    grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+.blank{
+background: white;
+grid-column: 2 / span 1;
+color: white;
+    border: 3px solid #ff0000;
+}
+.blank2{
+background: white;
+grid-column: 4 / span 1;
+color: white;
+    border: 3px solid #ff0000;
+}
+.blank3{
+background: white;
+grid-column: 6 / span 1;
+color: #ffffff;
+border: 3px solid #ff0000;
+}
+.gerry{
+    grid-column: 5 / span 1;
+    grid-row: 1 / span 1;
+}
+.julius{
+    grid-column: 7 / span 1;
+    grid-row: 1 / span 1;
+}
