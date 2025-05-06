@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 50px
+}
+a:link{
+            background-color: blue;
+            color: white;
+            padding: 15px 20px;
+            text-align:center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right:16px;
+    font-size: 40px;
+  }
+
+text {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 45px;
+  font-style: normal;
+}
