@@ -1,0 +1,40 @@
+body{
+    background-color: aliceblue
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+    color: blue;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: gold
+}
+.center {
+  display: block;
+  left: 200px;
+  width: 150%;
+}
+div {
+  width: 100px;
+position: relative;
+  height: 200px;
+  transition: width 2s, height 4s;
+    font-size: 20px
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+}
+a:link{
+            background-color: yellow;
+            color: blue;
+            padding: 15px 20px;
+            text-align:center;
+            text-decoration: none;
+            display: inline-block;
+            margin-right:16px;
+    font-size: 40px;
+  }
